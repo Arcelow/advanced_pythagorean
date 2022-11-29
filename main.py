@@ -36,6 +36,10 @@ elif A == "?":
 elif A and B and C == "?":
     print("Nothing is known!")
 elif A and B and C != "?":
+    if float(A) ** 2 + float(B) == float(C) ** 2:
+        print("This is also a real right triangle!")
+    else:
+        print("This is not a right triangle!")
     print("Invalid character or too much information!")
 exit()
 
